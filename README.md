@@ -17,8 +17,8 @@ Once the server is up, the routes can be tested using requests library or Postma
    ```http://127.0.0.1:8000/podcasts/```
    Gives an empty list initially. \
     *Status*: \
-    ```GET /podcasts/ HTTP/1.1" 200 OK```
-![alt text](readme/emptylist.png)
+    ```GET /podcasts/ HTTP/1.1" 200 OK``` \
+    ![alt text](readme/emptylist.png)
 
 2. **POST** request to add a podcast: \
    ```http://127.0.0.1:8000/podcasts/``` with body -
